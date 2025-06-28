@@ -10,8 +10,13 @@ Install Opencv library:
  pip install opencv-python
 ```
 
-Usage:
+Usage for py file:
+video to frames
 ```bash
-video_to_frames('eg.mp4','out_frames')
-frames_to_video('frames', 'output_video.mp4', fps=30)
+python video_frame_process.py --mode vtf --video_path Example_video.mp4 --output_path Example_frames
+```
+
+frames to video
+```bash
+python video_frame_process.py --mode ftv --frames_folder Example_frames --output_path Example_synthesize_video.mp4 --fps 30
 ```
