@@ -11,12 +11,13 @@ Install Opencv library:
 ```
 
 Usage for py file:
-video to frames
+
+1.video to frames
 ```bash
 python video_frame_process.py --mode vtf --video_path Example_video.mp4 --output_path Example_frames
 ```
 
-frames to video
+2.frames to video
 ```bash
 python video_frame_process.py --mode ftv --frames_folder Example_frames --output_path Example_synthesize_video.mp4 --fps 30
 ```
